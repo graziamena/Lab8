@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { ProductsProvider } from './context/ProductsContext'; // Adjust the import path as necessary
-import ProductList from './components/ProductList';
-import ProductDetails from './components/ProductDetails';
-import ProductForm from './components/ProductForm';
-import NotFoundPage from './components/NotFoundPage';
-import HomePage from './components/HomePage';
+import ProductList from './component/ProductList';
+import ProductDetails from './component/ProductDetails';
+import ProductForm from './component/ProductForm';
+import NotFoundPage from './component/NotFoundPage';
+import HomePage from './component/HomePage';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faList, faPlus } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
